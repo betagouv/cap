@@ -1,0 +1,14 @@
+title: ""
+labels: []
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Retour
+      placeholder: ""
+      render: bash
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > Vous pouvez donner de la visibilité à votre avis en partageant [https://github.com/betagouv/cap/discussions](https://github.com/betagouv/cap/discussions) auprès de la communauté beta.gouv pour que d'autres puissent voter pour.

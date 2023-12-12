@@ -1,0 +1,32 @@
+title: Décrivez ici simplement votre besoin (sans mentionner la solution)
+labels: []
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Besoin
+      placeholder: Décrivez ici votre besoin détaillé avec le contexte nécessaire (sans mentionner la solution)
+      render: bash
+  - type: textarea
+    id: solutions
+    attributes:
+      label: Solutions envisageables
+      placeholder: |
+        Quelles sont les solutions que vous recommanderiez pour répondre au besoin ?
+
+        1.
+        2.
+        3.
+        ...
+      render: bash
+  - type: checkboxes
+    attributes:
+      label: Informations complémentaires
+      options:
+        - label: J'avais déjà entendu ce besoin au sein de la communauté beta.gouv
+        - label: Je me porte volontaire pour participer à la mise en place de la future solution choisie
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > Les besoins qui nous sont communiqués sont priorisés en fonction de leur impact pour la communauté. N'hésitez pas à partager [https://github.com/betagouv/cap/discussions](https://github.com/betagouv/cap/discussions) auprès de la communauté beta.gouv pour que d'autres puissent voter pour le vôtre.

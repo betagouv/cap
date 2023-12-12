@@ -1,0 +1,32 @@
+title: Décrivez ici simplement le problème rencontré
+labels: []
+body:
+  - type: textarea
+    id: bug
+    attributes:
+      label: Problème
+      placeholder: Décrivez ici votre problème détaillé avec le plus de contexte possible (erreurs, screenshots...)
+      render: bash
+  - type: textarea
+    id: solutions
+    attributes:
+      label: Solutions envisageables
+      placeholder: |
+        Avez-vous des idées de solution pour corriger ce problème ?
+
+        1.
+        2.
+        3.
+        ...
+      render: bash
+  - type: checkboxes
+    attributes:
+      label: Informations complémentaires
+      options:
+        - label: Je ne suis pas le seul à rencontrer ce problème
+        - label: Je me porte volontaire pour participer à la mise en place de la future solution choisie
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > Les problèmes qui nous sont remontés sont priorisés en fonction de leur impact pour la communauté. N'hésitez pas à partager [https://github.com/betagouv/cap/discussions](https://github.com/betagouv/cap/discussions) auprès de la communauté beta.gouv pour que d'autres puissent voter pour le vôtre.
