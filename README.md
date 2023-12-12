@@ -15,7 +15,7 @@ Ce repository nous sert d'outil de "customer feedback" pour la communauté beta.
 
 ## Pourquoi sur GitHub ?
 
-La communauté beta.gouv étant d'office présente sur GitHub nous avons privilégié la réalisation de cet outil puisque ce que nous recherchions comme fonctionnalité est assez sommaire.
+La communauté beta.gouv étant d'office présente sur GitHub, nous avons privilégié la réutilisation de l'outil `Discussions` puisque ce que nous recherchions comme fonctionnalité est assez sommaire.
 
 _Dans le cas où vous avez besoin d'un outil similaire avec les votes partagés vous pouvez regardez [Fider](https://github.com/getfider/fider) (open source) ou [https://www.featurebase.app/](https://www.featurebase.app/) (SaaS, l'un des seuls hébergés en Europe (Estonie))._
 
